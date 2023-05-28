@@ -188,8 +188,8 @@ select:-webkit-autofill:focus {
   padding: 0;
   margin: 0;
   list-style: none;
-  margin-bottom: 32px;
-  max-height: 665px;
+  /* margin-bottom: 32px; */
+  max-height: 696px;
   overflow-y: auto;
 
   /* Foreground, Background */
@@ -203,21 +203,23 @@ select:-webkit-autofill:focus {
   border-radius: 5px;
   background: rgb(51, 51, 51, 0.9);
 }
+.dark-mode .projects-list::-webkit-scrollbar-thumb { /* Foreground */
+  border-radius: 5px;
+  background: #222;
+}
 .projects-list::-webkit-scrollbar-track { /* Background */
   border-radius: 5px;
   background: rgb(255, 255, 255, 0.6);
 }
-
-
-
-
-
-
 .projects-list__item {
   display: flex;
+  margin-bottom: 32px;
+}
+.projects-item--none {
+  display: none;
 }
 .projects-list__item:not(:last-child){
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
 }
 .projects-list__item-img {
   width: 300px;
