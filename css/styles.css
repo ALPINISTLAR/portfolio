@@ -169,9 +169,50 @@ select:-webkit-autofill:focus {
   transition: 500ms;
   cursor: pointer;
   margin-top: 15px;
+  margin-bottom: 32px;
 }
 .dark-mode .dark-mode-toggler{
   background-position: 0 0;
+}
+
+
+/* LANGUAGE CHANGER  */
+.language-changer {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.language-changer__item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.language-changer__item-3{
+  margin-top: -3px;
+}
+.language-changer__item:not(:last-child){
+  margin-bottom: 10px;
+}
+.language-changer__link {
+  display: flex;
+  transition: transform 0.4s ease;
+}
+.language-changer__link:hover{
+  transform: scale(1.5);
+}
+.language-changer__link:visited{
+  transform: scale(1.5);
+}
+.language-changer__link:active{
+  opacity: 0.5;
+}
+.language-changer__link--active{
+  transform: scale(1.5);
+}
+.language-changer__img {
+  display: block;
+  width: 30px;
 }
 /* ** MAIN CONTENT ** */
 .main-content
@@ -217,9 +258,6 @@ select:-webkit-autofill:focus {
 }
 .projects-item--none {
   display: none;
-}
-.projects-list__item:not(:last-child){
-  /* margin-bottom: 32px; */
 }
 .projects-list__item-img {
   width: 300px;
