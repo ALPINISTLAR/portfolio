@@ -72,7 +72,6 @@ select:-webkit-autofill:focus {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  /* border: 3px solid red; */
 }
 /* ** LINK ** */
 .link {
@@ -425,6 +424,9 @@ select:-webkit-autofill:focus {
   .language-changer__item:not(:last-child){
     margin-right: 7px;
   }
+  .language-changer__item-3{
+    margin-top: -6px;
+  }
   .site-header__img {
     width: 120px;
     height: 120px;
@@ -440,6 +442,10 @@ select:-webkit-autofill:focus {
     flex-direction: column;
     align-items: center;
     max-height: 740px;
+  }
+  .projects-list::-webkit-scrollbar {
+    width: 8px; /* Mostly for vertical scrollbars */
+    height: 8px; /* Mostly for horizontal scrollbars */
   }
   .projects-list__item {
     max-width: 300px;
@@ -465,6 +471,9 @@ select:-webkit-autofill:focus {
   }
   .dark-mode .projects-list__item-info a {
     color: #222;
+  }
+  .site-header__info-links{
+    display: inline-flex;
   }
 }
 @media only screen and (max-width: 375px){
