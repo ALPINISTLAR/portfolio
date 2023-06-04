@@ -25,7 +25,8 @@ body
   line-height: 1.5;
   font-family: "Open Sans", Arial, sans-serif;
   letter-spacing: 0.5px;
-  background-color: hsl(51, 100%, 60%);
+  /* background-color: hsl(51, 100%, 60%); */
+  background-color: rgb(222, 184, 135, 0.7);
   color: #222;
 }
 .dark-mode{
