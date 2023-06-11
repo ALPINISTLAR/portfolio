@@ -487,6 +487,7 @@ select:-webkit-autofill:focus {
     margin-bottom: 26px;
   }
   .projects-list__item::after{
+    bottom: 15px;
     width: 45px;
     height: 36px;
   }
