@@ -273,6 +273,9 @@ select:-webkit-autofill:focus {
   background-image: url(../icons/responsive-devices-white.svg);
 }
 /* *** RESPONSIVE ICON *** */
+.projects-list__item:nth-child(1)::after{
+  display: block;
+}
 .projects-list__item:nth-child(8)::after{
   display: block;
 }
