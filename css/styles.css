@@ -276,16 +276,16 @@ select:-webkit-autofill:focus {
 .projects-list__item:nth-child(1)::after{
   display: block;
 }
-.projects-list__item:nth-child(8)::after{
-  display: block;
-}
 .projects-list__item:nth-child(9)::after{
   display: block;
 }
-.projects-list__item:nth-child(11)::after{
+.projects-list__item:nth-child(10)::after{
   display: block;
 }
 .projects-list__item:nth-child(12)::after{
+  display: block;
+}
+.projects-list__item:nth-child(13)::after{
   display: block;
 }
 
