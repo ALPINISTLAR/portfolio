@@ -131,12 +131,18 @@ select:-webkit-autofill:focus {
   display: flex;
 }
 .site-header__img {
-  width: 170px;
-  height: 170px;
+  width: 140px;
+  height: 205px;
   display: block;
-  border-radius: 50%;
   margin-right: 32px;
   flex-shrink: 0;
+  background-image: url(../img/avatar.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: grab;
+}
+.site-header__img:hover{
+  background-image: url(../img/avatar-2.png);
 }
 .site-header__info {
   flex-grow: 1;
@@ -341,10 +347,8 @@ select:-webkit-autofill:focus {
     display: flex;
   }
   .site-header__img {
-    width: 150px;
-    height: 150px;
-    display: block;
-    border-radius: 50%;
+    width: 126px;
+    height: 185px;
     margin-right: 16px;
   }
   .site-header__info {
@@ -393,10 +397,8 @@ select:-webkit-autofill:focus {
 }
 @media only screen and (max-width: 630px){
   .site-header__img {
-    width: 120px;
-    height: 120px;
-    display: block;
-    border-radius: 50%;
+    width: 112px;
+    height: 164px;
     margin-right: 14px;
   }
   .projects-list__item-img{
@@ -464,10 +466,8 @@ select:-webkit-autofill:focus {
     height: 18px;
   }
   .site-header__img {
-    width: 120px;
-    height: 120px;
-    display: block;
-    border-radius: 50%;
+    width: 84px;
+    height: 123px;
     margin-right: 0;
   }
   .hero__title{
